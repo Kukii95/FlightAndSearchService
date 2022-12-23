@@ -1,4 +1,5 @@
 const {FlightRepository,AirplaneRepository, AirplaneRepository}=require('../repository/index');
+
 const {compareTime}=require('../utilis/helper');
 
 class FlightService{
@@ -22,6 +23,10 @@ class FlightService{
             throw(error);
         }
     }
+
+    async get()[
+
+    ]
 
     async getAllFlightData(data){
          try {
